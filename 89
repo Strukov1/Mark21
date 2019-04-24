@@ -1,0 +1,13 @@
+program massiv;
+   var a,b,i:integer;
+begin
+   writeln('vvedite 1oe 4islo:');
+   read(a);
+   writeln('vvedite 2oe 4islo:');
+   read(b);
+   for i:=1 to b do
+       inc(a);
+   writeln('otvet slozheniya:',a);
+   readln;
+   readln;
+end.
