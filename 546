@@ -1,0 +1,13 @@
+var
+   a,b,c:integer;
+begin
+    writeln('Input first number');
+    readln(a);
+    
+    writeln('Input second number');
+    readln(b);
+    
+    c := a + b;
+    
+    writeln('Sum ', c);
+end.
