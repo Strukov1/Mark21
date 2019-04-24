@@ -1,0 +1,23 @@
+// ConsoleApplication6.cpp: определяет точку входа для консольного приложения.
+//
+ 
+#include "stdafx.h"
+ 
+#include <iostream>
+ 
+using namespace std;//Подключение стандартной библиотеки функций
+ 
+ 
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");//Для корректного отображения русского языка
+	//Расскоментировать строчки ниже, если с русским будут проблемы
+	//setlocale(LC_ALL, "ru_RU.UTF-8");
+	//setlocale(LC_ALL, "");
+ 
+	//Тут пишем код программы
+ 
+	system("pause");//Чтобы приложение не закрылось автоматически
+ 
+    return 0;
+}
